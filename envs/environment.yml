@@ -1,0 +1,10 @@
+name: vega-altair-demo-001
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - altair==4.2.2
+  - jupyterlab
+  - pip
+  - pip:
+      - delta-sharing
